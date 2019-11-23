@@ -72,7 +72,7 @@ if($data['password'] == '')
                         
 
                     <div class="form-group">
-                            <label class="col-md-2 col-md-offset-1"> </label>
+                            <label class="col-md-2 col-md-offset-1">Email </label>
                         <div class="col-md-8">
                             <input type="email" name="email" placeholder="Enter Email here" class="form-control">
                              <?php if(isset($error['email'])): ?>
